@@ -6,17 +6,18 @@
 <?php
 echo "Name : ";
 ?>
-<input type="text" name ="name"><br>
+<input type="text" id ="name"><br>
 <?php
 echo "School : ";
 ?>
-<input type="text" name="school">
+<input type="text" id="school">
 <br>
 <button onclick="myFunction()">Try it</button>
 <script>
 function myFunction()
 {
-alert(name);
+
+alert('welcome' + document.getElementById('name').value + 'from school' + document.getElementById('school').value);
 }
 </script>
 </body>
