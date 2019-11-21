@@ -16,8 +16,6 @@ echo "School : ";
 <script>
 function myFunction()
 {
-if 
-
 if(document.getElementById('name').value == ''||document.getElementById('school')=='')
 {
 alert('invalid input');
