@@ -16,7 +16,7 @@ echo "School : ";
 <script>
 function myFunction()
 {
-alert(location.hostname);
+alert(name);
 }
 </script>
 </body>
