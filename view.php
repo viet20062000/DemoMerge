@@ -3,18 +3,22 @@
 <body>
 
 <h1>My first PHP page</h1>
-<form>
+
 <?php
 echo "Name : ";
 ?>
-<br><input type="text" name ="name">
+<input type="text" name ="name"><br>
 <?php
 echo "School : ";
 ?>
 <input type="text" name="school">
 <br>
-<input type="submit" value="Submit">
-</form>
-
+<button onclick="myFunction()">Try it</button>
+<script>
+function myFunction()
+{
+alert("Hello " +name);
+}
+</script>
 </body>
 </html>
