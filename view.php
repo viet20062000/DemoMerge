@@ -7,11 +7,13 @@
 <?php
 echo "Name : ";
 ?>
-<input type="text" name ="name">
+<br><input type="text" name ="name">
 <?php
 echo "School : ";
 ?>
 <input type="text" name="school">
+<br>
+<input type="submit" value="Submit">
 </form>
 
 </body>
