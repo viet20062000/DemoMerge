@@ -16,8 +16,16 @@ echo "School : ";
 <script>
 function myFunction()
 {
+if 
 
+if(document.getElementById('name').value == ''||document.getElementById('school')=='')
+{
+alert('invalid input');
+}
+else
+{
 alert('welcome' + document.getElementById('name').value + 'from school' + document.getElementById('school').value);
+}
 }
 </script>
 </body>
