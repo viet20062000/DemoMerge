@@ -5,10 +5,10 @@
 <h1>My first PHP page</h1>
 
 <?php
-echo "Hello World!";
+echo "Name : ";
 ?>
-</br>
-<a href="view.php">Click here to view information!</a>
+<input type="text">
+
 
 </body>
 </html>
