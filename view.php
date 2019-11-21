@@ -3,7 +3,7 @@
 <body>
 
 <h1>My first PHP page</h1>
-
+<form>
 <?php
 echo "Name : ";
 ?>
@@ -13,7 +13,8 @@ echo "School : ";
 ?>
 <input type="text" name="school">
 <br>
-<button onclick="myFunction()">Try it</button>
+<input type="submit" onclick="myFunction" value="Submit">
+</form>
 <script>
 function myFunction()
 {
