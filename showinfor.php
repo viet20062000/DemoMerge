@@ -25,13 +25,19 @@
     $stmt->execute();
     $resultSet=$stmt->fetchAll();
     ?>
-    <ul>
+    <table style ="width:100%">
+    <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Price</th>
+  </tr>
     <?php 
     foreach($resultSet as $row)
     {
-        echo "<li>" . $row["name"].'--'.$row["price"]."</li>";
+        echo "<tr>" ."<th>" $row["productid"]."</th>".
+        "<th>".$row["name"]."</th>".
+        "<th>".$row["price"]."</th>"."</tr>";
     }
     ?>
-    </ul>
 </body>
 </html>
