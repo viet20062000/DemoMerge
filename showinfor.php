@@ -25,7 +25,7 @@
     $stmt->execute();
     $resultSet=$stmt->fetchAll();
     ?>
-    <table style ="width:100%,border: 1px solid black">
+    <table style ="width:100%; border: 1px solid black">
     <tr>
     <th>ID</th>
     <th>Name</th>
