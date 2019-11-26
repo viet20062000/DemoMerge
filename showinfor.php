@@ -32,7 +32,6 @@
         echo "<li>" . $row["name"].'--'.$row["price"]."</li>";
     }
     ?>
-    <li></li>
     </ul>
 </body>
 </html>
