@@ -39,5 +39,6 @@
         "<th>".$row["price"]."</th>"."</tr>";
     }
     ?>
+    </table>
 </body>
 </html>
