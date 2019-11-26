@@ -26,7 +26,7 @@
     $resultSet=$stmt->fetchAll();
     ?>
     <table style =" border: 1px solid black">
-    <tr>
+    <tr style ="color:red">
     <th>ID</th>
     <th>Name</th>
     <th>Price</th>
