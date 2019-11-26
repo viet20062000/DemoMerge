@@ -34,9 +34,9 @@
     <?php 
     foreach($resultSet as $row)
     {
-        echo "<tr>" ."<th>". $row["productid"]."</th>".
-        "<th>".$row["name"]."</th>".
-        "<th>".$row["price"]."</th>"."</tr>";
+        echo "<tr>" ."<td>". $row["productid"]."</td>".
+        "<td>".$row["name"]."</td>".
+        "<td>".$row["price"]."</td>"."</tr>";
     }
     ?>
     </table>
