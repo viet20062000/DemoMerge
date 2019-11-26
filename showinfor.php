@@ -29,7 +29,7 @@
     <?php 
     foreach($resultSet as $row)
     {
-        echo "<li>" . $row[$name].'--'.$row["price"]."</li>";
+        echo "<li>" . $row["$name"].'--'.$row["price"]."</li>";
     }
     ?>
     <li></li>
