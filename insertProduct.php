@@ -10,10 +10,10 @@ $pdo = new PDO("pgsql:" . sprintf(
 ));
 $name =$_POST['name'];
 $price =$_POST['price'];
-$data = {
+$data = [
     'name'=>$name,
     'price'=>$price,
-};
+];
 $sql ="insert into product (name, price) values (:name,:price)");
 //compile
 $stmt = $pdo->prepare($sql);
