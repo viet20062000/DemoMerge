@@ -36,9 +36,9 @@
     {
         echo "<tr>" ."<td>". $row["productid"]."</td>".
         "<td>".$row["name"]."</td>".
-        "<td>".$row["price"]."</td>"."</tr>".
-        "<td> <button onclick="location.href='deleteProduct.php?id=.'$row["productid"]''" type="button">".
-        Delete."</button>";
+        "<td>".$row["price"]."</td>".
+        "<td> <button onclick='location.href='deleteProduct.php?id='.$row["productid"].'' type='button'>".
+        Delete."</button></tr>";
     }
     ?>
     </table>
