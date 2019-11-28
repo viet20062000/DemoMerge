@@ -31,14 +31,14 @@
     <th>Name</th>
     <th>Price</th>
   </tr>
-    <?php 
+    <?php
     foreach($resultSet as $row)
     {
         echo "<tr>" ."<td>". $row["productid"]."</td>".
         "<td>".$row["name"]."</td>".
         "<td>".$row["price"]."</td>".
-        "<td> <button onclick='location.href='deleteProduct.php?id='.$row["productid"].'' type='button'>".
-        Delete."</button></tr>";
+        "<td> <button onclick='location.href='deleteProduct.php?id=" .$row["productid"]. "type='button'>".
+        "Delete</button></tr>";
     }
     ?>
     </table>
