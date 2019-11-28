@@ -34,18 +34,16 @@
     <?php
     foreach($resultSet as $row)
     {
-    ?>
         <tr>
-        <td> <?php $row["productid"]?></td>
-        <td><?php $row["name"]?></td>
-        <td><?php $row["price"]?></td>
+        <td> $row["productid"] </td>
+        <td> $row["name"] </td>
+        <td> $row["price"] </td>
         <td> 
             <button onclick="location.href='deleteProduct.php?id=<?php $row["productid"] ?>' "type="button">
             Delete
             </button>
         </td>
         </tr>
-    <?php
     }
     ?>
     </table>
