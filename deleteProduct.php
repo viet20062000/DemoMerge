@@ -9,9 +9,10 @@
         ltrim($db["path"], "/")
     ));    
     $id = $_POST["id"];
+    $data = ['id'=>$id];
     $stmt =  
-        $pdo->prepare("delete from product where productid='$id'");	
-    $stmt->execute($id);
+        $pdo->prepare("delete from product where productid=:id");	
+    $stmt->execute($data);
     echo("Deleted!");
  
 ?>
