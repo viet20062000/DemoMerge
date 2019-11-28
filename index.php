@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <body>
-
-<h1>My first PHP page</h1>
-
-<?php
-echo "Hello World!";
-?>
-</br>
-<a href="view.php">Click here to view information!</a>
+<h1> Create Product </h1>
+<form action="intertProduct.php" method="post">
+Name <input type="text" id ="name">
+<br>
+Price <input type="text" id="price">
+<br>
+<input type="submit" value="Insert">
+</form>
 <a href="showinfor.php">Click here to view product infor!</a>
 
 </body>
