@@ -10,8 +10,8 @@
     ));    
     $id = $_POST["id"];
     $stmt =  
-        $pdo->prepare("delete from product where id='$id'");	
+        $pdo->prepare("delete from product where productid='$id'");	
     $stmt->execute($id);
-    echo("insert ok!");
+    echo("Deleted!");
  
 ?>
