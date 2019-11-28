@@ -8,7 +8,7 @@
         $db["pass"],
         ltrim($db["path"], "/")
     ));    
-    $id = $_POST["id"];
+    $id = $_GET["id"];
     $data = ['id'=>$id];
     $stmt =  
         $pdo->prepare("delete from product where productid=:id");	
