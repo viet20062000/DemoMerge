@@ -39,7 +39,7 @@
         <td> $row["name"] </td>
         <td> $row["price"] </td>
         <td> 
-            <button onclick="location.href='deleteProduct.php?id=<?php $row["productid"] ?>' "type="button">
+            <button onclick="location.href='deleteProduct.php?id= $row["productid"]' "type="button">
             Delete
             </button>
         </td>
