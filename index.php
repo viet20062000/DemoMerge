@@ -7,3 +7,11 @@
 		<br>
 		<input type="submit" value="Insert">
 	</form>
+
+	<br>
+	<form action ="deleteProduct.php" method ="post">
+	ID : <input type ="text" name="id">
+	<input type="submit" value="Delete">
+	</form>
+    </body>
+    
