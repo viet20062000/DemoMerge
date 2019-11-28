@@ -14,7 +14,7 @@ $data = {
     'name'=>$name,
     'price'=>$price,
 };
-$sql ="insert into product (name, price) values ('$name','$price')");
+$sql ="insert into product (name, price) values (:name,:price)");
 //compile
 $stmt = $pdo->prepare($sql);
 //execute
